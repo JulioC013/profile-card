@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+body{
+   background-color: var(--background-color);
+   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+hr{
+    width: 100%;
+    
+}
+.profile-card {
+    width: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 100%;
+    padding: 25px 115px;
+
+}
+
+.contador,.nome{
+    font-weight: 700;
+    
+}
+
+.cidade.item,span{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.info-cartao{
+    width: 317px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    }
+.nome,.cidade {
+
+    margin-bottom: 37px;
+        
+    }
+
+ul{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 50px;
+    }
+
+.info{
+    max-width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
